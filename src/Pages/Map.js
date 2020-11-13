@@ -13,10 +13,6 @@ export default function MapComponent() {
 
   ]
 
-  
-
-  
-
   const mwl = new Icon({
     iconUrl:
       "https://res.cloudinary.com/dztzswpcp/image/upload/v1602709855/markusDivinus/Screenshot_2020-10-14_at_23.10.37_hdhcn3.png",
