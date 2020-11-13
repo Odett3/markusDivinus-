@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import wines from "../DB/wines.json"
-
+import Map from "./Map"
 export default function OurWines() {
 
   const [wineDate, setWineDate] = useState("")
@@ -24,26 +24,27 @@ export default function OurWines() {
   } 
 
   return (
-    <div>
+    <>
    <h1>Our Wines </h1>
-
-<button onClick={()=> setWineDate("all")}> All </button>
-<button onClick={()=> setWineDate("2017")}> 2017 </button>
-<button onClick={()=> setWineDate("2018")}> 2018 </button>
-
+<select onChange={(e)=> setWineDate(e.target.value)}>
+<option value="all" > All </option>
+<option value="2017" > 2017 </option>
+<option value="2018" > 2018 </option>
+</select>
 {wineFilter.map((w) => { 
 
   return (<div key={w.id}>
-<h3 > {w.name}</h3>
-<img src={w.image} alt="wine" width="40%"/>
-<p>{w.date}</p>
+<h3>{w.name} </h3>
+<h4>{w.date}</h4>
 <p>{w.description}</p>
-  
+<img src={w.image} alt="wine bottle" width="30%" />
+
+
 </div>)
 
 })}
+<Map />
 
-
-    </div>
+    </>
   );
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import { Switch, Route } from "react-router-dom";
-import HomePage from "./Components/HomePage"
-import AboutUs from "./Components/AboutUs"
-import Events from './Components/Events';
-import ZafranaWinery from './Components/ZafranaWinery';
-import OurWines from "./Components/OurWines"
+import HomePage from "./Pages/HomePage"
+import AboutUs from "./Pages/AboutUs"
+import Events from './Pages/Events';
+import ZafranaWinery from './Pages/ZafranaWinery';
+import OurWines from "./Pages/OurWines"
 import NavBar from "./Components/NavBar"
 
 function App() {
