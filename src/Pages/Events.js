@@ -1,12 +1,16 @@
-import React from 'react';
+import React, {useState} from 'react';
 import QRCode from 'react-qr-code'
 
 export default function Events() {
   return (
     <div>
-   
-      
+    
+
+
+
    Events <br />
+
+  
 
    Please scan the QR to see our current menu: 
 
@@ -20,4 +24,4 @@ export default function Events() {
 
     </div>
   );
-}
+} 

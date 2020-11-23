@@ -1,0 +1,28 @@
+[
+  {"id": 1,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606138999/markusDivinus/foodMenu/1_c6otko.jpg"
+  },
+  {
+    "id": 2,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606138999/markusDivinus/foodMenu/2_i1t9dc.jpg"
+  },
+  {"id": 3,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606138999/markusDivinus/foodMenu/3_kz7p38.jpg"
+  },
+  {
+    "id": 4,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606139000/markusDivinus/foodMenu/4_qkikli.jpg"
+  },
+  {
+    "id": 5,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606139000/markusDivinus/foodMenu/5_qgm8ia.jpg"
+  },
+  {
+    "id": 6,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606139000/markusDivinus/foodMenu/6_cyx03v.jpg"
+  },
+  {
+    "id": 7,
+    "imgUrl": "https://res.cloudinary.com/dztzswpcp/image/upload/v1606139001/markusDivinus/foodMenu/7_y4fuwj.jpg"
+  }
+]
